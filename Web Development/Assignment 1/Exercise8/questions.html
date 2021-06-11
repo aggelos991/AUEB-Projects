@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="external_stylesheet.css">
+        <title> Ερωτηματολόγιο</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="head1">Ερωτηματολόγιο</h1>
+        </header>
+
+        <nav class="NavBar">
+            <nav class="b" title="first"><A class="a1" id="nav_1" HREF="../index.html">Αρχική Σελίδα Εργασίας</A></nav>
+            <nav class="a" title="second"><A class="a1" id="nav_2" HREF="index.html">Τι είναι η Μηχανική Μάθηση</A></nav>
+            <nav class="a" title="third"><A class="a1" id="nav_3" HREF="page2.html">Αντικείμενα & Πρακτικές </A></nav>
+            <nav class="a" title="fourth"><A class="a1" id="nav_4" HREF="page3.html">Προσωπική Εμπειρία</A></nav>
+            <nav class="a" title="sixth"><A class="a1" id="nav_6" HREF="form.html">Εγγραφή Χρήστη</A></nav>
+            <nav class="a" title="seventh"><A class="a1" id="nav_7" HREF="questions.html">Ερωτηματολόγιο</A></nav>
+            <nav class="a"><A class="a1" HREF="#" onclick="func_Theme_question()" id="nav_5">Αλλαγή Φόντου</a></nav>
+        </nav>
+
+        <picture class="fig">
+            <img id="img_5" src="images/questionnaire.png" alt="sign">
+        </picture>
+
+        <main>
+            <form action="../index.html" method="POST"> 
+                <h3 id="h3_1">1) Με τι ασχολείστε;</h3>
+                <input type="radio" name="occupy" value="school_student" >Μαθητής<br><br>
+                <input type="radio" name="occupy" value="uni_student">Φοιτητής<br><br>
+                <input type="radio" name="occupy" value="employed" >Εργαζόμενος<br><br>
+                <input type="radio" name="occupy" value="unemployed" >Άνεργος<br><br>
+                <input type="radio" name="occupy" value="pensioner" >Συνταξιούχος<br><br>
+                <input type="radio" name="occupy" value="other">Άλλο:<br>
+                <input type="text" name="other">
+                <br><br>
+        
+                <hr>
+                <h3 id="h3_2">2) Ποιο είναι το αγαπημένο σας hobby;</h3>
+                <input type="radio" name="hobby" value="music">Μουσική<br><br>
+                <input type="radio" name="hobby" value="sports" >Αθλητισμός<br><br>
+                <input type="radio" name="hobby" value="traveling" >Ταξίδια/Εκδρομές<br><br>
+                <input type="radio" name="hobby" value="gaming" >Gaming<br><br>
+                <input type="radio" name="hobby" value="drawing" >Ζωγραφική<br><br>
+                <input type="radio" name="hobby" value="books" >Βιβλία<br><br>
+                <input type="radio" name="hobby" value="other" >Άλλο:<br>
+                <input type="text" id="other2" name="other">
+                <br><br>
+        
+                <hr>
+                <h3 id="h3_3">3) Ποιό είδος video games σας αρέσει να παίζετε περισσότερο;</h3>
+                <input type="radio" name="gaming" value="Action games">Action<br><br>
+                <input type="radio" name="gaming" value="Adventure games">Adventure<br><br>
+                <input type="radio" name="gaming" value="Role-playing games">Role-playing<br><br>
+                <input type="radio" name="gaming" value="Simulation games">Simulation<br><br>
+                <input type="radio" name="gaming" value="Strategy games">Strategy<br><br>
+                <input type="radio" name="gaming" value="Sports games">Sports<br><br>
+                <input type="radio" name="gaming" value="Puzzle games">Puzzle<br><br>
+                <input type="radio" name="gaming" value="Idle games">Idle<br><br>
+                <input type="radio" name="gaming" value="other">Άλλο:<br>
+                <input type="text" name="other">
+                <br><br>
+        
+        
+                <hr>
+                <h3 id="h3_4">4) Ποιο είναι το αγαπημένο σας άθλημα;</h3>
+                <input type="radio" name="sports" value="football">Ποδόσφαιρο<br><br>
+                <input type="radio" name="sports" value="basketball">Μπάσκετ<br><br>
+                <input type="radio" name="sports" value="volleyball">Βόλει<br><br>
+                <input type="radio" name="sports" value="tennis">Τένις<br><br>
+                <input type="radio" name="sports" value="running">Στίβος<br><br>
+                <input type="radio" name="sports" value="swimming">Κολύμβηση<br><br>
+                <input type="radio" name="sports" value="biking">Ποδηλασία<br><br>
+                <input type="radio" name="sports" value="other">Άλλο:<br>
+                <input type="text" name="other">
+                <br><br>
+        
+        
+                <hr>
+                <h3 id="h3_5">5) Ποια είναι η αγαπημένη σας εποχή του χρόνου;</h3>
+                <input type="radio" name="seasons" value="Winter" >Χειμώνας<br><br>
+                <input type="radio" name="seasons" value="Spring" >Άνοιξη<br><br>
+                <input type="radio" name="seasons" value="Summer" >Καλοκαίρι<br><br>
+                <input type="radio" name="seasons" value="Autumn" >Φθινόπωρο<br><br>
+        
+                <hr>
+                <h3 id="h3_6">6) Ποιο/ποια είδος/η ταινιών σας αρέσουν;</h3>
+                <input type="checkbox" name="movies" value="Action" >Δράσης<br><br>
+                <input type="checkbox" name="movies" value="Comedy" >Κωμωδία<br><br>
+                <input type="checkbox" name="movies" value="Drama" >Δράμα<br><br>
+                <input type="checkbox" name="movies" value="Fantasy" >Φαντασίας<br><br>
+                <input type="checkbox" name="movies" value="Horror" >Τρόμου<br><br>
+                <input type="checkbox" name="movies" value="Mystery" >Μυστηρίου<br><br>
+                <input type="checkbox" name="movies" value="Romance" >Ρομαντικές<br><br>
+                <input type="checkbox" name="movies" value="Thriller" >Θρίλερ<br><br>
+                <input type="checkbox" name="movies" value="Western" >Western<br><br>
+        
+                <hr>
+                <h3 id="h3_7">7) Ποιο/ποια είδος/η μουσικής ακούτε;</h3>
+                <input type="checkbox" name="music" value="laika" >Λαικά<br><br>
+                <input type="checkbox" name="music" value="traditional" >Παρασοδιακά<br><br>
+                <input type="checkbox" name="music" value="electro">Electro<br><br>
+                <input type="checkbox" name="music" value="rock">Rock<br><br>
+                <input type="checkbox" name="music" value="rap">Rap<br><br>
+                <input type="checkbox" name="music" value="pop">Pop<br><br>
+                <input type="checkbox" name="music" value="trap">Trap<br><br>
+                <input type="checkbox" name="music" value="trance">Trance<br><br>
+                <input type="checkbox" name="music" value="jazz">Jazz<br><br>
+                <input type="checkbox" name="music" value="metal">Metal<br><br>
+                <input type="checkbox" name="sports" value="other" >Άλλο:<br>
+                <input type="text" name="other">
+                <br><br>
+        
+                <hr>
+                <h3 id="h3_8">8) Σουβλάκι ή Πίτσα;</h3>
+                <input type="radio" name="food" value="souvlaki" >Σουβλάκι<br><br>
+                <input type="radio" name="food" value="pizza" >Πίτσα<br><br>
+        
+                <hr>
+                <h3 id="h3_9">9) iPhone ή Android;</h3>
+                <input type="radio" name="tech" value="iphone">iPhone<br><br>
+                <input type="radio" name="tech" value="android">Android<br><br>
+                        
+                <hr>
+                <h3 id="h3_10">10) Αν μπορούσατε να ταξιδέψετε οπουδήποτε θέλατε, που θα πηγαίνατε;</h3>
+                <textarea id="text_t" name="text_t" rows="4" cols="45" maxlength = "100" placeholder="Μέχρι 100 χαρακτήρες"></textarea><br>      
+                <br><br>
+                <input type="submit" id="btn_submit" name="submit"><br>
+            </form>
+        </main>  
+        <script src="external_script.js"></script>
+    </body>
+</html>

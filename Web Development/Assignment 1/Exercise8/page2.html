@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title> Αντικείμενα & Πρακτικές Μηχανικής Μάθησης</title>
+        <link rel="stylesheet" href="external_stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="head1">Αντικείμενα & Πρακτικές Μηχανικής Μάθησης</h1>
+            <p id="day_time"></p>
+        </header>
+
+        <nav class="NavBar">
+            <nav class="b" title="first"><A class="a1" id="nav_1" HREF="../index.html">Αρχική Σελίδα Εργασίας</A></nav>
+            <nav class="a" title="second"><A class="a1" id="nav_2" HREF="index.html">Τι είναι η Μηχανική Μάθηση</A></nav>
+            <nav class="a" title="third"><A class="a1" id="nav_3" HREF="page2.html">Αντικείμενα & Πρακτικές </A></nav>
+            <nav class="a" title="fourth"><A class="a1" id="nav_4" HREF="page3.html">Προσωπική Εμπειρία</A></nav>
+            <nav class="a" title="fourth"><A class="a1" id="nav_6" HREF="form.html">Εγγραφή Χρήστη</A></nav>
+            <nav class="a"><A class="a1" HREF="#" onclick="func_page2()">Translate to English</a></nav>
+            <nav class="a"><A class="a1" HREF="#" onclick="func_Theme_page2()" id="nav_5">Αλλαγή Φόντου</a></nav>
+        </nav>
+
+        <aside class="fig">
+            <picture>
+                <source media="(min-width:2000px)" srcset="../Exercise4/ml2.png">
+                <img src="images/ml2_edited.png" alt="ml2">
+            </picture>
+            <figure>
+                <figcaption>Πρακτικές της Μηχανικής Μάθησης σε διάφορους τομείς.</figcaption>
+            </figure>
+        </aside>
+
+        <main>
+            <article>
+                <section>
+                    <h2 id="h2_1">Που εφαρμόζεται η θεωρία της Μηχανικής Μάθησης</h2>
+                    <p id="p_1">Η Μηχανική μάθηση εφαρμόζεται σε μια σειρά από υπολογιστικές εργασίες, όπου τόσο ο σχεδιασμός όσο και ο ρητός προγραμματισμός των αλγορίθμων είναι ανέφικτος. Παραδείγματα εφαρμογών αποτελούν τα φίλτρα spam (spam filtering), η οπτική αναγνώριση χαρακτήρων (OCR), οι μηχανές αναζήτησης και η υπολογιστική όραση. </p>
+                </section>
+                <br>
+                <section>
+                    <h2 id="h2_2">Τύποι προβλημάτων και εργασιών</h2>
+                    <ul>
+                        <li id="li_1">Επιτηρούμενη μάθηση (αλλιώς επιβλεπόμενη μάθηση ή μάθηση με επίβλεψη) (supervised learning): Το υπολογιστικό πρόγραμμα δέχεται τις παραδειγματικές εισόδους καθώς και τα επιθυμητά αποτελέσματα από έναν «δάσκαλο», και ο στόχος είναι να μάθει έναν γενικό κανόνα προκειμένου να αντιστοιχίσει τις εισόδους με τα αποτελέσματα.</li>
+                        <li id="li_2">Μη επιτηρούμενη μάθηση (αλλιώς επίβλεπτη μάθηση ή μάθηση χωρίς επίβλεψη (unsupervised learning): Χωρίς να παρέχεται κάποια εμπειρία στον αλγόριθμο μάθησης, πρέπει να βρει την δομή των δεδομένων εισόδου. Η Μη Επιτηρούμενη μάθηση μπορεί να είναι αυτοσκοπός (ανακαλύπτοντας κρυμμένα μοτίβα σε δεδομένα) ή μέσο για ένα τέλος (χαρακτηριστικό της μάθησης).</li>
+                        <li id="li_3">Ενισχυτική μάθηση: Ένα πρόγραμμα υπολογιστή αλληλεπιδρά με ένα δυναμικό περιβάλλον στο οποίο πρέπει να επιτευχθεί ένας συγκεκριμένος στόχος (όπως η οδήγηση ενός οχήματος), χωρίς κάποιος δάσκαλος να του λέει ρητά αν έχει φτάσει κοντά στο στόχο του. Ένα άλλο παράδειγμα είναι να μάθει να παίζει ένα παιχνίδι εναντίον κάποιου αντιπάλου.</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <h3 class="b" id="h3_1">Σύνδεσμοι για περισσότερες πληροφορίες</h3>
+            <br>
+            <A HREF="https://towardsdatascience.com/what-are-the-types-of-machine-learning-e2b9e5d1756f">What are the types of machine learning?</A><br><br>
+            <A HREF="https://www.sciencedirect.com/science/article/pii/S2001037014000464">Machine learning applications in cancer prognosis and prediction</A><br><br>
+            <A HREF="https://www.wordstream.com/blog/ws/2017/07/28/machine-learning-applications">10 Companies Using Machine Learning in Cool Ways</A><br><br>
+            <A HREF="https://serokell.io/blog/best-machine-learning-applications">Best Machine Learning Applications in 2021</A><br>
+        </footer> 
+
+        <script src="external_script.js"></script>
+
+    </body>
+</html>
