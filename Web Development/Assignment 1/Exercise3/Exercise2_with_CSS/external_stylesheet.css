@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(234, 244, 247);
+  }
+  
+ h1.a{
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 28px;
+ }
+
+ h2.a{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2.b{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+ h3.a{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+ .p1 {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+;}
+
+.p2 {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+.u1{
+    list-style-type: lower-roman;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+ #center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #float{
+      display:block;
+      float:right;
+      margin: 10px;
+  }
+
+  hr{
+    border: 1px solid rgb(143, 141, 141);
+  }
+
+
+  /* unvisited link */
+a:link {
+    color: rgb(16, 0, 241);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
+
+  article {
+    width: auto;
+    padding: 20px;
+    border-style: double;    
+  }
+
+  ul.b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(187, 184, 184);
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+  li.liStyle{
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    float: left;
+  }
+
+  input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  textarea {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
