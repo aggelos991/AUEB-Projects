@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Αρχική Σελίδα</title>
+
+        <link rel="stylesheet" href="external_stylesheet.css">
+
+    </head>
+    <body>  
+        <header><h1 class="a">Βιογραφικό - Αρχική Σελίδα</h1></header>
+        <ul class="b">
+            <li class="liStyle"><A HREF="page2.html">Επόμενη Σελίδα</A></li>
+            <li class="liStyle"><A HREF="../Exercise1_with_CSS/index.html">Αρχική Σελίδα Άσκησης 2</A></li>
+            <li class="liStyle"><A HREF="../../index.html">Αρχική Σελίδα Εργασίας</A></li>
+        </ul>
+        <hr>
+
+        <main>
+            <section>
+                <h2 class="b">Λίγα Λόγια για τον συγγραφέα της εργασίας</h2>
+                <br>
+                <img src="../../Exercise2/myphoto.jpg" alt="My photo" width="224" height="222">
+                <br>
+                <p class="p1">
+                    Ονομάζομαι Άγγελος Τσελές και είμαι 21 ετών. Είμαι φοιτητής του τμήματος Πληροφορικής του Οικονομικού Πανεπιστημίου Αθηνών.
+                    Γεννήθηκα και μεγάλωσα στην Αθήνα και συγκεκριμένα στον Άγιο Δημήτριο.<br><br>
+                    Αποφοίτησα από το 3ο Γενικό Λύκειο Αγίου Δημητρίου με βαθμό απολυτηρίου 17.5/20. Είμαι κάτοχος δύο πτυχίων ξένων γλωσσών. Πιο συγκεκριμένα, είμαι κάτοχος πτυχίου C2 στην αγγλική γλώσσα και κάτοχος πτυχίου B2 στην γερμανική γλώσσα.
+                    <br><br>Στον ελεύθερο μου χρόνο ασχολούμαι με το ποδόσφαιρο, την γυμναστική και το gaming. Παράλληλα ,εφόσον οι συνθήκες και οι υποχρεώσεις το επιτρέπουν, λατρεύω να ταξιδεύω, καθώς με χαλαρώνουν από την πίεση της καθημερινότητας.
+                    <br><br>Στις επόμενες σελίδες θα γίνει αναφορά στην ακαδημαϊκή σταδιοδρομία μου μέχρι στιγμής.
+                    <br>
+                </p>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <h3 class="a">Χρήσιμος Σύνδεσμος</h3>
+            <p class="p1"><A HREF="https://aueb.gr/">Ιστότοπος Οικονομικού Πανεπιστημίου Αθηνών</A></p>
+        </footer>
+        <br>
+        <hr>
+        <footer>
+            <h3 class="a">Στοιχεία Επικοινωνίας</h3>
+            <p class="p1">Ακαδημαικό email: p3170160@aueb.gr<br>
+            Προσωπικό email: tsl.aggelos@gmail.com</p>
+
+            <form action="mailto:p3170160@aueb.gr" method="POST" enctype="multipart/form-data" name="EmailForm"> 
+                <fieldset>
+                    <legend><h3 class="a">Επικοινωνήστε μαζί μου</h3></legend>
+                    <label for="name" class="p1">Ονοματεπώνυμο:</label><br>
+                    <input type="text" id="name" name="name" required maxlength = "70" placeholder="Πληκτρολογήστε το πλήρες ονοματεπώνυμο σας"><br>
+                    <label for="email" class="p1">Email Επικοινωνίας:</label><br>
+                    <input type="text" id="email" name="email" required maxlength = "70" placeholder="example@email_provider.com"><br>
+                    <label for="msg" class="p1">Μήνυμα:</label><br>
+                    <textarea id="msg" name="msg" rows="4" cols="50" maxlength = "100" placeholder="Μέχρι 100 χαρακτήρες"></textarea><br>
+                    <input type="submit" id="btn_submit" name="submit"><br>
+                </fieldset>
+            </form>
+        </footer> 
+    </body>
+</html>

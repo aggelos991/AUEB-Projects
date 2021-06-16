@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width",initital-scale="1.0">
+    <meta http-equiv="X=UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="external_stylesheet.css">
+
+    <title>List with favorite books</title>
+</head>
+<body onload="favoritesFunction()">
+    <header>
+        <input type="image" src="images/arrow.png " width="50" height="50" id="back_button" onclick="back_func()"></input>
+        <h1>Favorites List</h1>
+    </header>
+    <br>
+    <nav class="SearchBar">
+
+        <nav>
+            <input id="searchFav" type="text" onkeyup="filter()" placeholder="Enter title or key of title">
+        </nav>
+
+    </nav>
+    <br><br>   
+    <main id="main_fav_id"></main>
+
+    <footer>
+        <h3 class="b">Useful Link for more Information</h3>
+        <A HREF="https://www.penguinrandomhouse.com/">Penguin Random House</A><br><br>
+    </footer>
+    
+    <script src="../static/js/main.js"></script>
+ 
+</body>
+</html>
