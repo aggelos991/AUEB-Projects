@@ -21,5 +21,5 @@ The task of Assignment 2 is to classify texts by rating (positive / negative) by
   - Random Forest
   - AdaBoost
   - Logistic Regression
-  - 
+  
 Main goal of this assignment is to get familiar with the basics of Machine Learning.
