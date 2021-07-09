@@ -7,7 +7,7 @@ There are two types of expenses:
   1) Expenses with fixed cost
   2) Expenses with fixed cost and usage
 
-The program should gives various of options:
+The program should give the following options:
 
   - Insert new building
   - Insert new building's expenses
