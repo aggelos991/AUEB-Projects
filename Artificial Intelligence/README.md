@@ -7,10 +7,10 @@ The task of Assignment 1 is to solve either the Bridge Crossing Game Problem or 
   - A star
   - Beam search
   - MiniMax
+  
+Main goal of this assignment is to get familiar with how search algorithms work.
 
 <br>
-
-Main goal of this assignment is to get familiar with how search algorithms work.
 
 **About 2nd Assignment**
 
