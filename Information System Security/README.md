@@ -9,3 +9,5 @@ The security plan must include:
   - Risk Assessment
   - Impact Assessment
   - Preventive / Detective controls for every threat/vulnerability
+
+Main goal of this assignment is to get familiar with the basics of risk/impact assessment and how a security plan is created for real companies.
